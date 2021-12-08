@@ -6,11 +6,3 @@
     "gsmax": "10",
     "gwsmax": "10"
 }
-
-
-
-
-git commit - m "first commit"
-git branch - M main
-git remote add origin https: //github.com/vCesar1mx/BOT-CI-V2.git
-    git push - u origin main
