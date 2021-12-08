@@ -1,0 +1,32 @@
+{
+  "name": "igbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cola-js/qrcode": "^3.2.2",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "@yimura/scraper": "^1.2.3",
+    "colors": "^1.4.0",
+    "discord-api-types": "^0.24.0",
+    "discord.js-12": "^1.0.2",
+    "dns-fast-resolver": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "g-i-s": "^2.1.6",
+    "general-search-engine": "^1.4.1",
+    "gtts": "^0.2.1",
+    "loggerr": "^3.3.0",
+    "node-iplocate": "^1.0.2",
+    "nodejs-better-console": "^1.0.2",
+    "speedtest-promise": "^1.1.0",
+    "systeminformation": "^5.9.9",
+    "tiktok-scraper": "^1.4.36",
+    "traceroute-lite": "^0.1.0"
+  }
+}
