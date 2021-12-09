@@ -8,14 +8,14 @@ module.exports = {
         try {
             if (!message.attachments.first().url) return console.log("No attached file found");
             const file = message.attachments.first().url;
-            console.dir(message.attachments);
+            //console.dir(message.attachments);
 
             Tesseract.recognize(
                 "" + file,
                 "" + args.slice(), { logger: (m) => console.log(m) }
                 //'eng', { logger: m => console.log(m) }
             ).then(({ data: { text } }) => {
-                console.log(text);
+                //console.log(text);
                 message.reply(text);
             });
         } catch (error) {

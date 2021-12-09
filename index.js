@@ -23,7 +23,7 @@ for (const folder of commandFolders) {
     }
 }
 
-client.on('message', message => {
+client.on('message', async message => {
 
     if (!message.content.startsWith(prefix) || message.author.bot) return;
 
@@ -38,6 +38,7 @@ client.on('message', message => {
         console.error(error);
         message.reply('there was an error trying to execute that command!');
     }
+
 });
 client.once('ready', () => {
     console.log(colors.red('Debug: ') + colors.green('ABot - Corriendo...'));
