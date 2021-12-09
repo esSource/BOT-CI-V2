@@ -20,12 +20,13 @@
     "fs": "^0.0.1-security",
     "g-i-s": "^2.1.6",
     "general-search-engine": "^1.4.1",
-    "gtts": "^0.2.1",
+    "gtts": "^0.1.1",
     "loggerr": "^3.3.0",
     "node-iplocate": "^1.0.2",
     "nodejs-better-console": "^1.0.2",
     "speedtest-promise": "^1.1.0",
     "systeminformation": "^5.9.9",
+    "tesseract.js": "^2.1.5",
     "tiktok-scraper": "^1.4.36",
     "traceroute-lite": "^0.1.0"
   }
