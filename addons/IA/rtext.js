@@ -12,14 +12,14 @@ module.exports = {
 
             Tesseract.recognize(
                 "" + file,
-                "spa", { logger: (m) => console.log(m) }
+                "" + args.slice(), { logger: (m) => console.log(m) }
                 //'eng', { logger: m => console.log(m) }
             ).then(({ data: { text } }) => {
                 console.log(text);
                 message.reply(text);
             });
         } catch (error) {
-            message.reply('Debes usar el $rtext con una imagen adjunta!.')
+            message.reply('Debes usar el $rtext con una imagen adjunta y el idioma ejemplo: spa = spanish, eng = english.')
         }
     },
 };
