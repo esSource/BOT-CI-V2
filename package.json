@@ -31,6 +31,9 @@
     "systeminformation": "^5.9.9",
     "tesseract.js": "^2.1.5",
     "tiktok-scraper": "^1.4.36",
-    "traceroute-lite": "^0.1.0"
+    "traceroute-lite": "^0.1.0",
+    "youtube-mp3-downloader": "^0.7.10",
+    "youtube-sr": "^4.1.10",
+    "ytdl-core": "^4.9.1"
   }
 }
