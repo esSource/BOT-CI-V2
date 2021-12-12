@@ -1,4 +1,4 @@
-//DISCORD DEVELOPED BY vCesar1mx in colaboration with hlearn.org
+//DEVELOPED BY vCesar1mx
 const colors = require('colors/safe');
 const Discord = require('discord.js-12');
 const { Client, Intents } = require('discord.js-12');
