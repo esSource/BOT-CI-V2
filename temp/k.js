@@ -1,3 +1,5 @@
+//This file is a beta of a key logging system, we will not complete it since it is an opensource
+//but we will not delete it so that you can finish it if you need it, you can run it as is without any problem.
     function cllent(key) {
         if (key != 'HZ11-CCC5-ZZZ1-OAZA-1101') {
             console.log(colors.red('-------------------------------------------'))
