@@ -7,8 +7,10 @@ module.exports = {
     const TikTokScraper = require("tiktok-scraper");
     const colors = require("colors");
 
-    if (args == '') {
-      return message.channel.send('Necesitas ingresar un nombre de usuario!. | Ayuda de uso: $tkhelp');
+    if (args == "") {
+      return message.channel.send(
+        "Necesitas ingresar un nombre de usuario!. | Ayuda de uso: $tkhelp"
+      );
     }
     (async () => {
       try {
@@ -47,7 +49,9 @@ module.exports = {
               ' "Esto no es un error, solo no se ha encontrado el video!."'
           )
         );
-        message.channel.send("Debug: No se ha podido encontrar el video, revisa que el link funcione!.");
+        message.channel.send(
+          "Debug: No se ha podido encontrar el video, revisa que el link funcione!."
+        );
       }
     })();
   },

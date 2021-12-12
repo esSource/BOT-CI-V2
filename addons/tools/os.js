@@ -30,7 +30,6 @@ module.exports = {
       .catch((error) => console.error(error));
     si.osInfo()
       .then((data) => {
-        //console.dir(data);
 
         const msg = new Discord.MessageEmbed();
         msg.setTitle(data.platform + " " + data.arch);

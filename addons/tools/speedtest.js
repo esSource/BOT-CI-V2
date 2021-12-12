@@ -9,15 +9,17 @@ module.exports = {
     const result = await testSpeed();
 
     msg = new Discord.MessageEmbed();
-    msg.setTitle('SpeedTest (ST)');
+    msg.setTitle("SpeedTest (ST)");
     msg.setDescription(
-        "Servidor Seleccionado: " + result.server.host+
-      "\nSubida: " +
+      "Servidor Seleccionado: " +
+        result.server.host +
+        "\nSubida: " +
         result.speeds.upload +
         "\nDescarga: " +
         result.speeds.download +
         "\nISP: " +
-        result.client.isp+"\n\nEste resultado es un aproximado, NodeJS puede crear un cuello de botella hasta en un 40% de la cantidad real!."
+        result.client.isp +
+        "\n\nEste resultado es un aproximado, NodeJS puede crear un cuello de botella hasta en un 40% de la cantidad real!."
     );
     msg.setFooter("Tools Module: ");
     msg.setTimestamp();

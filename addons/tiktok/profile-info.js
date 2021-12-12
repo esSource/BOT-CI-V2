@@ -6,8 +6,10 @@ module.exports = {
     const TikTokScraper = require("tiktok-scraper");
     const colors = require("colors");
 
-    if (args == '') {
-      return message.channel.send('Necesitas ingresar un nombre de usuario!. | Ayuda de uso: $tkhelp');
+    if (args == "") {
+      return message.channel.send(
+        "Necesitas ingresar un nombre de usuario!. | Ayuda de uso: $tkhelp"
+      );
     }
 
     (async () => {

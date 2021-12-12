@@ -1,5 +1,5 @@
 const Discord = require("discord.js-12");
-const colors = require("colors")
+const colors = require("colors");
 module.exports = {
   name: "gs",
   description: ".",
@@ -19,7 +19,7 @@ module.exports = {
           msg.setTitle("Google Search (GS)");
           msg.setDescription(
             "**Titulo: **" +
-            petition[i].title +
+              petition[i].title +
               "\n**Descripcion:** " +
               petition[i].description +
               "\n**Link:** " +
@@ -29,12 +29,14 @@ module.exports = {
           msg.setTimestamp();
           message.channel.send(msg);
         } catch (error) {
-        console.debug(colors.yellow('Debug: Usando catch en $GS, se ha encontrado una pagina sin nombre...! (Esto no es un error solo se ha salteado una variable.)'))
+          console.debug(
+            colors.yellow(
+              "Debug: Usando catch en $GS, se ha encontrado una pagina sin nombre...! (Esto no es un error solo se ha salteado una variable.)"
+            )
+          );
           msg = new Discord.MessageEmbed();
           msg.setTitle("Google Search (GS)");
-          msg.setDescription(
-            "**Debug: ** No se pudo obtener los datos..."
-          );
+          msg.setDescription("**Debug: ** No se pudo obtener los datos...");
           msg.setFooter("Google Module: ");
           msg.setTimestamp();
           message.channel.send(msg);
